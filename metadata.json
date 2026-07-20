@@ -1,0 +1,6 @@
+{
+  "name": "Sigma Hospital",
+  "description": "Sigma Hospital is a modern, professional Smart Hospital Management System. It enables hospital administrators to manage doctors, patients, appointments, schedules, and medical records securely offline and online. It also integrates Google AI Studio (Gemini API) to provide an educational AI health assistant for symptoms summary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

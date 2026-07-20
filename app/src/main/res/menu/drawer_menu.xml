@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_dashboard"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/drawer_doctors"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Doctor Directory" />
+        <item
+            android:id="@+id/drawer_patients"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="Patient Directory" />
+        <item
+            android:id="@+id/drawer_appointments"
+            android:icon="@android:drawable/ic_menu_week"
+            android:title="Appointments" />
+        <item
+            android:id="@+id/drawer_schedules"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="Doctor Schedules" />
+        <item
+            android:id="@+id/drawer_records"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Medical Records" />
+        <item
+            android:id="@+id/drawer_ai"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="AI Health Assistant" />
+        <item
+            android:id="@+id/drawer_notifications"
+            android:icon="@android:drawable/ic_popup_reminder"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/drawer_reports"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Reports &amp; Analytics" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/drawer_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+</menu>
